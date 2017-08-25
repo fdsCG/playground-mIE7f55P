@@ -1,7 +1,3 @@
-# Welcome!
-
-This Java template lets you get started quickly with a simple one-page playground.
-
 ```java runnable
 // { autofold
 public class Main {
@@ -9,8 +5,12 @@ public class Main {
 public static void main(String[] args) {
 // }
 
-String message = "Hello World 2!";
-System.out.println(message);
+Map<String, String> map = new HashMap<String, String>();
+map.put("first_name", "Alvin");
+map.put("last_name",  "Alexander");
+
+// java 8
+map.forEach((k,v)->System.out.println("key: " + k + ", value: " + v));
 
 //{ autofold
 }
@@ -18,7 +18,3 @@ System.out.println(message);
 }
 //}
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
