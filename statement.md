@@ -1,5 +1,7 @@
-```java runnable
 // { autofold
+import java.util.Map;
+import java.util.HashMap;
+
 public class Main {
 
 public static void main(String[] args) {
@@ -17,4 +19,3 @@ map.forEach((k,v)->System.out.println("key: " + k + ", value: " + v));
 
 }
 //}
-```
