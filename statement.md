@@ -13,7 +13,7 @@ map.put("last_name",  "Alexander");
 
 // java 8
 map.forEach((k,v)->System.out.println("key: " + k + ", value: " + v));
-// { autofold
+// { autofold 
 }
 
 }
